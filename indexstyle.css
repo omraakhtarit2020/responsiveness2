@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+}
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+.sideline{
+    border-left: rgb(192, 190, 190) 3px solid;
+}
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background: url('image1.jpg');
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url('image2.jpg');
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url('image3.jpg');
+    background-size: cover;
+}
+
+.fa{
+    font-size: 55px;
+}
+/* rgba(0 0 0 0.7) */
+#home-heading{
+    position: relative;
+    min-height:200px;
+    background:url('lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+.dark-overlay{
+    position: absolute;
+    background-color: rgba(27, 26, 26, 0.7);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#video-play{
+    position: relative;
+    min-height:200px;
+    background:url('media.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+#video-play a{
+    color: #fff;
+}
+#main-footer{
+    background: #000;
+    color: #fff;
+}
+
+#page-header{
+    height: 200px;
+    background: url('image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+.about-img{
+    position: relative;
+}
+
+#faq .card {
+    border: rgb(255, 255, 255); }
+    #faq .card a {
+      color: #333;
+      text-decoration: none; }
+  
+  #faq .card-body, #faq .card-header {
+    background: rgb(230, 224, 224); 
+    color: #333;
+}
+.card-body i{
+    font-size: smaller;
+}
